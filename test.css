@@ -1,0 +1,50 @@
+p {
+    outline: 1px solid red ;
+    display:inline-block ;
+    width: 200px;
+}
+div {
+    display: inline;
+    outline: 1px solid black;
+}
+b{
+    outline: 1px solid tomato ;
+    display: block;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+button {
+    margin:0.2em ;
+    padding: 1%;
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 6% ;
+}
+button:hover{
+    background-color: white ;
+    color: dodgerblue;
+    cursor:pointer ;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-between ;
+    align-items: center ;
+    width: 70%;
+    height: 50%;
+    margin: 10%;
+    background-color: rgb(238, 238, 129);
+}
+.child{
+    background-color:dodgerblue;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 4%;
+}
+.child:hover {
+    cursor: pointer;
+    background-color: #8fe2de;
+}
